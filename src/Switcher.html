@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Switcher</title>
+        <link rel="stylesheet" href="./panel.css">
+    </head>
+    <body>
+        <!-- row -->
+        <div class="clear"></div>
+        <hr>
+        <div class="row">
+            <ul class="button-list">
+                <li id="noproxy-id">
+                    <i class="noproxy"></i>
+                    <span class="noproxy-text"> No Proxy</span>
+                    <span id="noproxy-shortcut" class="shortcut-switch"> &nbsp;</span>
+                </li>
+                <!--
+                    <li id="systemproxy-id">
+                    <i class="system"></i>
+                    <span class="systemproxy-text"> Switch To System Proxy</span>
+                    <span id="systemproxy-shortcut" class="shortcut-switch"> &nbsp;</span>
+                    </li
+                -->
+                <li id="manualproxy-id1">
+                    <i class="manual"></i>
+                    <input type="text" value="socks5://localhost:8000" />
+                    <i class="right-arrow"></i>
+                </li>
+                <li id="manualproxy-id2">
+                    <i class="manual"></i>
+                    <input type="text" value="http://localhost:9000" />
+                    <i class="right-arrow"></i>
+                </li>
+                <li id="manualproxy-id3">
+                    <i class="manual"></i>
+                    <input type="text" value="socks5://localhost:8888" />
+                    <i class="right-arrow"></i>
+                </li>
+                <li id="manualproxy-id4">
+                    <i class="manual"></i>
+                    <input type="text" value="socks5://localhost:9999" />
+                    <i class="right-arrow"></i>
+                </li>
+                <li id="manualproxy-id5">
+                    <i class="manual"></i>
+                    <input type="text" value="socks5://localhost:9000" />
+                    <i class="right-arrow"></i>
+                </li>
+            </ul>
+            <!-- button-list -->
+        </div>
+        <!-- row -->
+        <script src="./panel.js"></script> 
+    </body>
+</html>

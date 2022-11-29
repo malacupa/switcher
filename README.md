@@ -11,3 +11,8 @@ At this moment Switcher `version 1.2.1` available on `addons.mozilla.org`. for d
 Please Follow these 2 steps :
 * First downloading or clone this repository. `git clone https://github.com/vheidari/switcher.git`
 * Second, typing `about:debugging#/runtime/this-firefox` in the Firefox address bar then clicking on `Load Temporary Add-on` button and load `manifest.json` file.
+
+# Signing
+```
+node node_modules/web-ext/bin/web-ext sign --api-key="<fill>" --api-secret="<fill>" --channel unlisted
+```
